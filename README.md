@@ -20,7 +20,7 @@ Download the Script: Clone or download the setup-db.sh script from this reposito
 
     ./setup-db.sh
 
-    Follow the on-screen prompts to enter your MariaDB credentials and the name of the database you wish to create.
+Follow the on-screen prompts to enter your MariaDB credentials and the name of the database you wish to create.
 
 ## Script Functionality
 
