@@ -66,6 +66,15 @@ CREATE TABLE $db_name.USER_ROLE (
     FOREIGN KEY (user_id) REFERENCES USERS(id),
     FOREIGN KEY (role_id) REFERENCES ROLE(id)
 );
+
+INSERT INTO $db_name.ROLE (name) VALUES ('admin'), ('user');
+
+INSERT INTO $db_name.PERMISSION (name) VALUES ('read'), ('write'), ('delete');
+
+INSERT INTO $db_name.ROLE_PERMISSION (role_id, permission_id) VALUES (1, 1), (1, 2), (1, 3);
+
+INSERT INTO $db_name.ROLE_PERMISSION (role_id, permission_id) VALUES (2, 1);
+
 END
 )
 
