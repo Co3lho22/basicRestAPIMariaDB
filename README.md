@@ -34,11 +34,17 @@ Follow the on-screen prompts to enter your MariaDB credentials and the name of t
 
 
 **Table Setup:** Creates the following tables:
+    
     USERS: Stores user information.
+    
     USER_AUTH: Manages user authentication tokens.
+    
     ROLE: Defines user roles.
+    
     PERMISSION: Manages permissions for roles.
+    
     ROLE_PERMISSION: Links roles with permissions.
+    
     USER_ROLE: Associates users with roles.
 
 ## Important Notes
