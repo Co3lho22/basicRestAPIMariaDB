@@ -25,8 +25,14 @@ Follow the on-screen prompts to enter your MariaDB credentials and the name of t
 ## Script Functionality
 
 **MariaDB Check:** Verifies if MariaDB is installed on your system.
+
+
 **User Prompts: Asks** for the MariaDB username, password, and the name of the database to create.
+
+
 **Database Creation:** Automatically creates a new database with the specified name.
+
+
 **Table Setup:** Creates the following tables:
     USERS: Stores user information.
     USER_AUTH: Manages user authentication tokens.
